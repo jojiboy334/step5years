@@ -4,9 +4,9 @@ void main() {
 	setlocale(LC_ALL, "Russian");
 	double const fut = 7.481;
 	int gal;
-	cout << "¬ведите кол-во галлонов" << endl;
+	cout << "Vvedite kol-vo galonov" << endl;
 	cin >> gal;
-	cout << "ќбъем в кубических футах равен " << gal / fut << endl;
+	cout << "Obem v kubicheskih futah =" << gal / fut << endl;
 	system("pause");
 		
 }
