@@ -1,9 +1,9 @@
 #include <iostream>
 #include <iomanip>
 using namespace std;
-int main() {
-    setlocale(LC_ALL, "Russian");
 
-
-    system("pause");
+int main()
+{
+	cout << "Moscow" << setfill('.') << setw(15) << "8425785" << endl;
+	system("pause");
 }
