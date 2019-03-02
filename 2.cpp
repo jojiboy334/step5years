@@ -1,9 +1,13 @@
 #include <iostream>
-#include <iomanip>
 using namespace std;
-int main() {
-    setlocale(LC_ALL, "Russian");
-
-
-    system("pause");
+#include <conio.h>
+int main()
+{
+	char ch;
+	unsigned long total = 0;
+	cout << "\nВведите число:";
+	while ((ch = getche()) != '\r')
+		total = total * 10 + ch - '0';
+	cout << "\nПолучилось число:" << total << endl;
+	return 0;
 }
